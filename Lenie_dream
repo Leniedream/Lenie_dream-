@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenie Dream - Fan Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff69b4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .biography {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            margin: 20px;
+        }
+        .video-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .video {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 300px;
+        }
+        .form-section {
+            margin: 10px 0;
+        }
+        input[type="text"], input[type="number"] {
+            padding: 10px;
+            margin: 5px 0;
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ff69b4;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenue sur Lenie Dream</h1>
+</header>
+
+<section class="biography">
+    <h2>À propos de moi</h2>
+    <p>
+        Bienvenue sur <strong>Lenie Dream</strong>, un espace dédié à mon admiration pour la talentueuse chanteuse Lenie ! Je suis une grande fan et à travers ce site, je partage ma passion pour elle et mon rêve de la rencontrer un jour. Découvrez ici mes publications et n'oubliez pas de les noter pour me donner votre avis !
+    </p>
+</section>
+
+<section class="video-section">
+    <!-- Vidéo 1 -->
+    <div class="video">
+        <h3>Vidéo 1</h3>
+        <iframe src="https://www.instagram.com/reel/DAoQYv_oKAv/embed" width="300" height="400" frameborder="0"></iframe>
+        <div class="form-section">
+            <form>
+                <label for="instagram-handle-1">Votre compte Instagram :</label>
+                <input type="text" id="instagram-handle-1" name="instagram-handle" placeholder="ex: @moncompte">
+                
+                <label for="note-1">Note sur 20 :</label>
+                <input type="number" id="note-1" name="note" min="1" max="20">
+                
+                <input type="submit" value="Noter">
+            </form>
+        </div>
+    </div>
+
+    <!-- Vidéo 2 -->
+    <div class="video">
+        <h3>Vidéo 2</h3>
+        <iframe src="https://www.instagram.com/reel/DAQ7nGKoLnY/embed" width="300" height="400" frameborder="0"></iframe>
+        <div class="form-section">
+            <form>
+                <label for="instagram-handle-2">Votre compte Instagram :</label>
+                <input type="text" id="instagram-handle-2" name="instagram-handle" placeholder="ex: @moncompte">
+                
+                <label for="note-2">Note sur 20 :</label>
+                <input type="number" id="note-2" name="note" min="1" max="20">
+                
+                <input type="submit" value="Noter">
+            </form>
+        </div>
+    </div>
+
+    <!-- Ajouter d'autres vidéos ici de la même manière -->
+
+</section>
+
+<footer>
+    <p>© 2024 Lenie Dream - Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
